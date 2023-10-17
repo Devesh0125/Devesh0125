@@ -1,0 +1,39 @@
+use TalentCentral
+select * from temporary_link where email like '%vvghvhgv@shl.com%'
+select * from email_audit_log where project_id=1338339
+select * from company_order_unit where id in (select company_order_unit_id from company_order_unit_usage where project_id =1338312)
+Select * from email_audit_log where candidate_id = 1713755
+select * from email_audit_log (nolock) where project_id=1326860 and email_template_type=2
+Select * from content_package where tag like 'C_APTA_HSBCUpdatedValues'
+select * from email_template_type
+select * from email_audit_log (nolock) where project_id=1315346
+select * from email_audit_log (nolock) where to_email=<>
+select * from temporary_link where project = 1315346
+select * from email_audit_log where project_id=1315346 order by time_stamp desc
+select * from company_order_unit_usage where project_id=<>
+select * from status_history_Audit_log where project_id=
+select * from email_audit_log where to_email like '%davesh.sharma001@shl.com%' order by time_stamp desc
+select * from scores(nolock) where ccpm_id = 4903652
+select * from scores (nolock) where test_Session_id='99E07D00-0802-4985-A598-436E51060D51'
+select * from scores (nolock) where project_id=<>
+
+
+select * from candidate_content_package_mapping (nolock) where project_id=<>
+select * from test_session (nolock) where project_id=<>
+
+select * from scores (nolock) where project_id= 1378903
+
+Select * from company_order_unit_usage where project_id = 1332053
+Select * from report_binary_data where project_id = 1322633 and single_use_link_id=2376872
+select *  from candidate_survey where candidate_id =1781340 and project_id =1326969
+select * from company_settings where  company_id=2000488
+Select * from company_package_configuration where content_package =67906
+{"shlAppEnabled":false,"realTimeCandidateAssignedEmailEnabled":false,"realTimeAssessmentCompleteEmailEnabled":false,"dailyDigestEmailEnabled":false,"experimentEnabled":false,"industrySectorId":0,"hideAssessmentDeadlineDate":false,"surveyEnabled":true,"surveyId":"AHP-StandardSurvey"}
+select * from email_audit_log where  to_email like '%davesh.sharma001@shl.com%' and email_template_type=11 order by time_stamp desc
+TEST_SESSION_QUESTION_RESPONSE	 
+CANDIDATE_ASSESSMENT_MAPPING	 
+SINGLE_USE_LINK	 
+CANDIDATE_CONTENT_PACKAGE_MAPPING	 
+WORKFLOW_SESSION	 
+TAG
+select * from email_audit_log where to_email like '%testuser@
